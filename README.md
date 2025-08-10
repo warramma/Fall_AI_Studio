@@ -14,12 +14,14 @@ AI Studio project
 ---
 
 ## 🎯 **Project Highlights**
+coming soon
 
 - Developed a machine learning model using `[model type/technique]` to address `[challenge project task]`.
 
 ---
 
 ## 👩🏽‍💻 **Setup and Installation**
+coming soon 
 
 **Provide step-by-step instructions so someone else can run your code and reproduce your results. Depending on your setup, include:**
 
@@ -32,6 +34,7 @@ AI Studio project
 ---
 
 ## 🏗️ **Project Overview**
+coming soon
 
 **Describe:**
 
@@ -42,8 +45,7 @@ AI Studio project
 ---
 
 ## 📊 **Data Exploration**
-
-**You might consider describing the following (as applicable):**
+coming soonn
 
 * The dataset(s) used: origin, format, size, type of data
 * Data exploration and preprocessing approaches
@@ -58,7 +60,7 @@ AI Studio project
 
 ## 🧠 **Model Development**
 
-**You might consider describing the following (as applicable):**
+coming soon
 
 * Model(s) used (e.g., CNN with transfer learning, regression models)
 * Feature selection and Hyperparameter tuning strategies
@@ -68,8 +70,7 @@ AI Studio project
 ---
 
 ## 📈 **Results & Key Findings**
-
-**You might consider describing the following (as applicable):**
+coming soon 
 
 * Performance metrics (e.g., Accuracy, F1 score, RMSE)
 * How your model performed
@@ -83,7 +84,7 @@ AI Studio project
 
 ## 🚀 **Next Steps**
 
-**You might consider addressing the following (as applicable):**
+coming soon
 
 * What are some of the limitations of your model?
 * What would you do differently with more time/resources?
