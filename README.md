@@ -9,8 +9,8 @@
 |  Fahmin Rahman   | [@FRAHMAN117](https://github.com/FRAHMAN117) |    Research + Presentation, Feature Engineering, Feature Selection, Training DNN Model  |
 |  Kripamoye Biswas   | [@kbiswas20](https://github.com/kbiswas20) |    Research + Presentation, Project Planning, Training Random Forest Model  |
 |  Ruhe Solomon   | [@ruhesolomon](https://github.com/ruhesolomon) |    Research + Presentation, Training Decision Tree Model, Expanding Resource Dataset  |
-|  Wardiyah Rammazy   | [@warramma](https://github.com/warramma) |    Research + Presentation, EDA, Training KNN Model|
-| Genna Gonzaga   |  | Research|
+|  Wardiyah Rammazy   | [@warramma](https://github.com/warramma) |    Research + Presentation, Project Planning, Exploratory Data Analysis (EDA), Training KNN Model, Expanding Resource Dataset|
+| Genna Gonzaga   |  | Research |
 
 ---
 
@@ -30,6 +30,16 @@ The majority of our work was done in Google Colab Notebooks then uploaded to Git
 3. Run the notebook locally or upload to Google Colab.
 
 Final datasets used are available in the repository under the 'Data' folder, as well as original, sample data. 
+
+---
+
+## 🧩 **Problem Statement**
+
+Running a small business is challenging, especially for entrepreneurs operating with limited time, capital, and support. Many small businesses fail due to poor financial management, insufficient market research, and ineffective marketing strategies. Often not because resources do not exist, but because entrepreneurs struggle to find the right resources at the right time.
+
+Current resource-matching processes are difficult to personalize support at scale. This results in missed opportunities and inefficient onboarding experiences.
+
+Our project addresses this gap by exploring a machine learning(ML) driven recommendation system that learns about an entrepreneur’s unique needs and business stage to deliver tailored resources and opportunities, hopefully helping more entrepreneurs reach success!
 
 ---
 
