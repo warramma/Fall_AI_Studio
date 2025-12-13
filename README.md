@@ -3,8 +3,6 @@
 
 ### 👥 **Team Members**
 
-**Example:**
-
 | Name             | GitHub Handle | Contribution                                                             |
 |------------------|---------------|--------------------------------------------------------------------------|
 |  Chelsea Ezumah   | [@chelseaezumah](https://github.com/chelseaezumah) |    Research + Presentation, Training Logistic Regression Model,  Finding Areas of Improvement in the Dataset |
@@ -37,8 +35,6 @@ Final datasets used are available in the repository under the 'Data' folder, as 
 ## 🏗️ **Project Overview - Entrpreneur Compass Tool**
 Our project focuses on developing machine learning models that transform data into tailored resource recommendations, allowing small business owners to grow without wasting time on figuring out how.
 
-**Describe:**
-
 - We worked on this project as AI Studio Fellows for [Cambio Labs](https://www.cambiolabs.org/) through the Break Through Tech Program.
 - Cambio Labs™ empowers low income social entrepreneurs and workers through educational programs, learning technology, and by providing access to investment and job opportunities.
 - With our project, we aimed to
@@ -54,6 +50,43 @@ Our project focuses on developing machine learning models that transform data in
 ## 📊 **Data Exploration**
 ### Datasets Used
 * The dataset(s) used: origin, format, size, type of data
+* **X_final_optimized** - The final optimized features
+  * Origin: Created through feature selection
+  * Formats: `csv`, `xlsx`
+  * Size: (32 rows X 15 columns)
+  * Type of data: Numerical, Continuous data and Booleans
+* **target_new_resources**
+  * Origin: Created a target matrix for resources (including new resources our team found), with a matrix of recommended resources for each row in features.
+  * Formats:`xlsx`
+  * Size: (32 rows X 30 columns)
+  * Type of data: Numerical, Continuous data and Booleans
+* **dummy_features** - Dummy data for features
+  * Origin: Generated through random sampling & noise
+  * Formats: `csv`, `xlsx`
+  * Size: (1000 rows X 15 columns)
+  * Type of data: Numerical, Continuous data and Booleans
+* **dummy_target** - Dummy data for target matrix
+  * Origin: Generated through random sampling & noise
+  * Formats: `csv`, `xlsx`
+  * Size: (1000 rows X 30 columns)
+  * Type of data: Boolean (1 or 0)
+#### Original Data
+* **program_requirements**
+  * Origin: Provided by Cambio Labs
+  * Formats: `xlsx`
+  * Size: (30 rows X 3 columns)
+  * Type of data: Complex text data, several tables in one sheet.
+* **sample_results**
+  * Origin: Provided by Cambio Labs
+  * Formats: `xlsx`
+  * Size: (42 rows X 12 columns)
+  * Type of data: Numerical, Continuous data, Strings/Text Data
+* **survey_responses**
+  * Origin: Provided by Cambio Labs
+  * Formats: `xlsx`
+  * Size: (37 rows X 48 columns)
+  * Type of data: Numerical, Continuous data, Strings/Text Data
+  
 ### Data Exploration & Insights
 To process our data, we combined our individual responses, results, and resource datasets to create one unified dataset. From there, we performed EDA & extracted insights. 
 
@@ -82,25 +115,38 @@ III. Data Quality and Gaps
 
 ## 🧠 **Model Development**
 
-coming soon
+* Model(s) used
+  *   Decision Tree
+  *   Random Forest with Grid Search
+  *   K-Nearest Neighbors with Grid Search
+  *   Logistic Regression (Multi-Output)
+  *   Simplified DNN with Early Stopping and Dropout
+### Feature Engineering
+  * To prepare the features, we used 3 types of feature engineering   
+    1. Natural Language Processing (NLP) on open-ended responses
+    2. One-hot encoded features
+    3. Min-max scaling
+ * **Process:** We merged the datasheets, addressed feature variance, and cleaned hot encoded columns.
+ * Removed features with less than 15% out outputs → 159 features
+ * Dropping unscaled columns & redundant features
+ * Used logistic regression to select the 15 most influential features
 
-* Model(s) used (e.g., CNN with transfer learning, regression models)
-* Feature selection and Hyperparameter tuning strategies
-* Training setup (e.g., % of data for training/validation, evaluation metric, baseline performance)
+### Feature Selection
+The most influential features we found for predicting resources were primarily tied to technology access, education, employment, racial demographics, need for social welfare, income level and interest in entrepreneurship.
 
-
+### Training Setup
+* We used a 70/30 training/test split and an 85/15 training/test split for DNN. 
+* For evaluation, we used accuracy thresholds and **Jaccard Score** to measure the overlap between predicted and correct recommended set of resources.
 ---
 
 ## 📈 **Results & Key Findings**
-coming soon 
 
-* Performance metrics (e.g., Accuracy, F1 score, RMSE)
-* How your model performed
+### Performance
+![](https://github.com/warramma/Fall_AI_Studio/blob/f18af35d88fc1134dd93557ad7a90b42c119b2df/images/DECISION%20TREE.png)
+
+### Summary
 * Insights from evaluating model fairness
 
-**Potential visualizations to include:**
-
-* Confusion matrix, precision-recall curve, feature importance plot, prediction distribution, outputs from fairness or explainability tools
 
 ---
 
