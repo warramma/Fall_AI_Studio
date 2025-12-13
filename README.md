@@ -36,7 +36,7 @@ Final datasets used are available in the repository under the 'Data' folder, as 
 ## 🏗️ **Project Overview - Entrpreneur Compass Tool**
 Our project focuses on developing machine learning models that transform data into tailored resource recommendations, allowing small business owners to grow without wasting time on figuring out how.
 
-- We worked on this project as AI Studio Fellows for [Cambio Labs](https://www.cambiolabs.org/) through the Break Through Tech Program.
+- We worked on this project as AI Studio Fellows for [Cambio Labs](https://www.cambiolabs.org/) through the [Break Through Tech AI Program](https://www.breakthroughtech.org/programs/the-ai-program/).
 - Cambio Labs™ empowers low income social entrepreneurs and workers through educational programs, learning technology, and by providing access to investment and job opportunities.
 - With our project, we aimed to
   - Streamline Cambio Labs’ workflow - Automating resource matching, saving time, reducing manual effort
