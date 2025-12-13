@@ -142,39 +142,31 @@ The most influential features we found for predicting resources were primarily t
 ## 📈 **Results & Key Findings**
 
 ### Performance
+![](https://github.com/warramma/Fall_AI_Studio/blob/ffab9329777b7a250a39cf9df50965820769a012/images/KNN.png)
 ![](https://github.com/warramma/Fall_AI_Studio/blob/f18af35d88fc1134dd93557ad7a90b42c119b2df/images/DECISION%20TREE.png)
+![](https://github.com/warramma/Fall_AI_Studio/blob/ffab9329777b7a250a39cf9df50965820769a012/images/RANDOM%20FOREST.png)
+![](https://github.com/warramma/Fall_AI_Studio/blob/ffab9329777b7a250a39cf9df50965820769a012/images/LOGISTIC%20REGRESSION.png)
+![](https://github.com/warramma/Fall_AI_Studio/blob/ffab9329777b7a250a39cf9df50965820769a012/images/DNN.png)
 
 ### Summary
-* Insights from evaluating model fairness
-
+![](https://github.com/warramma/Fall_AI_Studio/blob/23f695d7127dfecbf286410cdce326cfcae60529/images/ACCURACIES.png)
+**Most accurate:** KNN
+**Suggested model(s):** KNN/Random Forest (Runner-up: DNN)
+* *KNN:* most accurate but not as scalable
+* *Random forest:* despite lower accuracy, it is more interpretable and scalable
+* *DNN:* black box predictions are harder to explain and the model is more complex to train
 
 ---
 
 ## 🚀 **Next Steps**
 
-coming soon
+Our next steps as a team include:
+- Increasing the dataset size and enriching features, such as survey responses, program data, and detailed entrepreneur information.
+- We plan to continue testing models to improve performance, gather direct feedback from entrepreneurs to enhance personalization and relevance, and track which recommendations are most useful to inform future predictions.
 
-* What are some of the limitations of your model?
-* What would you do differently with more time/resources?
-* What additional datasets or techniques would you explore?
-
+* **What are some of the limitations of your model?** - We were limited by the size of our data as well as our own knowledge gaps.
+* **What would you do differently with more time/resources?** - We'd love to have a visual component allowing users to directly test models to recommend resources.
 ---
 
-## 📝 **License**
-
-If applicable, indicate how your project can be used by others by specifying and linking to an open source license type (e.g., MIT, Apache 2.0). Make sure your Challenge Advisor approves of the selected license type.
-
-**Example:**
-This project is licensed under the MIT License.
-
----
-
-## 📄 **References** (Optional but encouraged)
-
-Cite relevant papers, articles, or resources that supported your project.
-
----
-
-## 🙏 **Acknowledgements** (Optional but encouraged)
-
-Thank your Challenge Advisor, host company representatives, TA, and others who supported your project.
+## 🙏 **Acknowledgements** 
+We would like to thank Nandini Proothi, our AI Studio Coach, and Angelo Orciuoli, our Challenge Advisor from Cambio Labs.
