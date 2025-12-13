@@ -10,6 +10,7 @@
 |  Kripamoye Biswas   | [@kbiswas20](https://github.com/kbiswas20) |    Research + Presentation, Project Planning, Training Random Forest Model  |
 |  Ruhe Solomon   | [@ruhesolomon](https://github.com/ruhesolomon) |    Research + Presentation, Training Decision Tree Model, Expanding Resource Dataset  |
 |  Wardiyah Rammazy   | [@warramma](https://github.com/warramma) |    Research + Presentation, EDA, Training KNN Model|
+| Genna Gonzaga   |  | Research|
 
 ---
 
