@@ -151,6 +151,7 @@ The most influential features we found for predicting resources were primarily t
 ### Summary
 ![](https://github.com/warramma/Fall_AI_Studio/blob/23f695d7127dfecbf286410cdce326cfcae60529/images/ACCURACIES.png)
 **Most accurate:** KNN
+
 **Suggested model(s):** KNN/Random Forest (Runner-up: DNN)
 * *KNN:* most accurate but not as scalable
 * *Random forest:* despite lower accuracy, it is more interpretable and scalable
