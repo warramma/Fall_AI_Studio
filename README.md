@@ -26,7 +26,7 @@ After extensive business research, EDA, & Feature Engineering, we tested several
 
 The majority of our work was done in Google Colab Notebooks then uploaded to GitHub. To run models & scripts
 
-1. Select the '.ipynb' file you want.
+1. Select the `.ipynb` file you want.
 2. Download it.
 3. Run the notebook locally or upload to Google Colab.
 
