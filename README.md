@@ -42,7 +42,7 @@ Our project focuses on developing machine learning models that transform data in
   - Streamline Cambio Labs’ workflow - Automating resource matching, saving time, reducing manual effort
   - Leverage data and machine learning - Make recommendations faster, accurate, and scalable
 - Scope: doing an in-depth analysis of possible models and presenting our findings in order to position Cambio Labs to create a user-friendly tool.
-- Impact
+- Impact:
   - Increasing success rate of small business owners finding relevant and impactful resources
   - Simplified yet informative user onboarding experience
   - Target a broader group of business owners with a larger set of recommended resources
@@ -50,7 +50,6 @@ Our project focuses on developing machine learning models that transform data in
 
 ## 📊 **Data Exploration**
 ### Datasets Used
-* The dataset(s) used: origin, format, size, type of data
 * **X_final_optimized** - The final optimized features
   * Origin: Created through feature selection
   * Formats: `csv`, `xlsx`
