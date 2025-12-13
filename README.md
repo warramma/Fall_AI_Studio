@@ -7,11 +7,11 @@
 
 | Name             | GitHub Handle | Contribution                                                             |
 |------------------|---------------|--------------------------------------------------------------------------|
-|  Chelsea Ezumah   | @chelseaezumah |    Research + Presentation, Training Logistic Regression Model,  Finding Areas of Improvement in the Dataset |
-|  Fahmin Rahman   | @FRAHMAN117 |    Research + Presentation, Feature Engineering, Feature Selection, Training DNN Model  |
-|  Kripamoye Biswas   | @kbiswas20 |    Research + Presentation, Project Planning, Training Random Forest Model  |
-|  Ruhe Solomon   | @ruhesolomon |    Research + Presentation, Training Decision Tree Model, Expanding Resource Dataset  |
-|  Wardiyah Rammazy   | @warramma |    Research + Presentation, EDA, Training KNN Model|
+|  Chelsea Ezumah   | [@chelseaezumah](https://github.com/chelseaezumah) |    Research + Presentation, Training Logistic Regression Model,  Finding Areas of Improvement in the Dataset |
+|  Fahmin Rahman   | [@FRAHMAN117](https://github.com/FRAHMAN117) |    Research + Presentation, Feature Engineering, Feature Selection, Training DNN Model  |
+|  Kripamoye Biswas   | [@kbiswas20](https://github.com/kbiswas20) |    Research + Presentation, Project Planning, Training Random Forest Model  |
+|  Ruhe Solomon   | [@ruhesolomon](https://github.com/ruhesolomon) |    Research + Presentation, Training Decision Tree Model, Expanding Resource Dataset  |
+|  Wardiyah Rammazy   | [@warramma](https://github.com/warramma) |    Research + Presentation, EDA, Training KNN Model|
 
 ---
 
@@ -52,15 +52,31 @@ Our project focuses on developing machine learning models that transform data in
 ---
 
 ## 📊 **Data Exploration**
-
+### Datasets Used
 * The dataset(s) used: origin, format, size, type of data
-* Data exploration and preprocessing approaches
-* Insights from your Exploratory Data Analysis (EDA)
-* Challenges and assumptions when working with the dataset(s)
+### Data Exploration & Insights
+To process our data, we combined our individual responses, results, and resource datasets to create one unified dataset. From there, we performed EDA & extracted insights. 
 
-**Potential visualizations to include:**
+I. Respondent Demographics & Status
+- Location: **High concentration in The Bronx (most respondents)**, followed by Manhattan and Brooklyn.
+- Income: **Overwhelmingly low-income**, with the vast majority reporting family income Under $25,000.
+- Housing: **Highly concentrated in affordable housing**, primarily NYCHA public housing and Section 8 Voucher holders.
+- Employment: A mix of Employed, Unemployed, and Self-Employed individuals.
+- Tech Access: Near-universal access to a Smartphone for virtual training, with many also having access to a laptop/computer.
 
-* Plots, charts, heatmaps, feature visualizations, sample dataset images
+II. Entrepreneurial Interest & Stage
+- Business Stage: Most ventures are in **the very early stages**, predominantly the Idea Stage or Planning/Getting started phase.
+- Program Experience: A significant number of respondents appear to be **new to formal training**, as prior program/accelerator participation data is largely missing (likely indicating "None").
+- Focus: A **clear interest in Social Entrepreneurship** (impact-focused) and **Cooperative Businesses** (community-owned) alongside general entrepreneurship.
+- Money: Majority no external funding or profit
+
+III. Data Quality and Gaps
+- Key Missing Data: The highest missing values were for Language preference other than English (suggesting English is sufficient for almost all) and details on prior external funding.
+- Financial Status: High number of missing/non-applicable values for questions about being cash flow positive or profitable, which aligns with the finding that most businesses are pre-revenue.
+- Majority N/A or No in regards to challenges facing their business that could clarify the type of support they need
+
+### Challenges & Assumptions
+* Given only a very small set of sample data, we struggled significantly when it came to increasing accuracy and generalizing our models.
 
 ---
 
