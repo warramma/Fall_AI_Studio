@@ -1,6 +1,4 @@
-# Fall AI Studio
-
-AI Studio project
+# Fall AI Studio - Entrepreneur Compass Tool
 ---
 
 ### 👥 **Team Members**
@@ -9,43 +7,51 @@ AI Studio project
 
 | Name             | GitHub Handle | Contribution                                                             |
 |------------------|---------------|--------------------------------------------------------------------------|
-|     |  |             |
+|  Chelsea Ezumah   | @chelseaezumah |    Research + Presentation, Training Logistic Regression Model,  Finding Areas of Improvement in the Dataset |
+|  Fahmin Rahman   | @FRAHMAN117 |    Research + Presentation, Feature Engineering, Feature Selection, Training DNN Model  |
+|  Kripamoye Biswas   | @kbiswas20 |    Research + Presentation, Project Planning, Training Random Forest Model  |
+|  Ruhe Solomon   | @ruhesolomon |    Research + Presentation, Training Decision Tree Model, Expanding Resource Dataset  |
+|  Wardiyah Rammazy   | @warramma |    Research + Presentation, EDA, Training KNN Model|
 
 ---
 
 ## 🎯 **Project Highlights**
-coming soon
+After extensive business research, EDA, & Feature Engineering, we tested several models for Cambio Labs' Resource Recommendation system.
 
-- Developed a machine learning model using `[model type/technique]` to address `[challenge project task]`.
+- We found Random Forest to be the most effective for the problem, with KNN and DNN as runner's up.
 
 ---
 
 ## 👩🏽‍💻 **Setup and Installation**
-coming soon 
 
-**Provide step-by-step instructions so someone else can run your code and reproduce your results. Depending on your setup, include:**
+The majority of our work was done in Google Colab Notebooks then uploaded to GitHub. To run models & scripts
 
-* How to clone the repository
-* How to install dependencies
-* How to set up the environment
-* How to access the dataset(s)
-* How to run the notebook or scripts
+1. Select the '.ipynb' file you want.
+2. Download it.
+3. Run the notebook locally or upload to Google Colab.
+
+Final datasets used are available in the repository under the 'Data' folder, as well as original, sample data. 
 
 ---
 
-## 🏗️ **Project Overview**
-coming soon
+## 🏗️ **Project Overview - Entrpreneur Compass Tool**
+Our project focuses on developing machine learning models that transform data into tailored resource recommendations, allowing small business owners to grow without wasting time on figuring out how.
 
 **Describe:**
 
-- How this project is connected to the Break Through Tech AI Program
-- Your AI Studio host company and the project objective and scope
-- The real-world significance of the problem and the potential impact of your work
-
+- We worked on this project as AI Studio Fellows for [Cambio Labs](https://www.cambiolabs.org/) through the Break Through Tech Program.
+- Cambio Labs™ empowers low income social entrepreneurs and workers through educational programs, learning technology, and by providing access to investment and job opportunities.
+- With our project, we aimed to
+  - Streamline Cambio Labs’ workflow - Automating resource matching, saving time, reducing manual effort
+  - Leverage data and machine learning - Make recommendations faster, accurate, and scalable
+- Scope: doing an in-depth analysis of possible models and presenting our findings in order to position Cambio Labs to create a user-friendly tool.
+- Impact
+  - Increasing success rate of small business owners finding relevant and impactful resources
+  - Simplified yet informative user onboarding experience
+  - Target a broader group of business owners with a larger set of recommended resources
 ---
 
 ## 📊 **Data Exploration**
-coming soonn
 
 * The dataset(s) used: origin, format, size, type of data
 * Data exploration and preprocessing approaches
